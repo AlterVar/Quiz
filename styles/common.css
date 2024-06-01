@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'MuseoSansCyrl500', sans-serif;
+    color: #333333;
+    cursor: default;
+}
+
+@font-face {
+    src: url("../fonts/MuseoSansCyrl500.ttf");
+    font-family: "MuseoSansCyrl500";
+}
+@font-face {
+    src: url("../fonts/MuseoSansCyrl700.ttf");
+    font-family: "MuseoSansCyrl700";
+}
+
+.header {
+    padding: 42px 0 40px;
+    border-bottom: 1px solid #DCDCF3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 14px 35px;
+    background-color: #6933DC;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 0;
+    font-size: 17px;
+    line-height: 20px;
+    color: #fff;
+    transition: .4s;
+    text-decoration: none;
+}
+
+a.btn {
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #4a259f;
+}
+
+.btn:disabled {
+    background-color: #e2dfe7;
+    cursor: not-allowed;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    color: #6933DC;
+    border: 1px solid #6933DC;
+}
+
+.btn-transparent:hover{
+    background-color: #6933DC;
+    color: #ffffff;
+}
+
+.btn-transparent:disabled {
+    background-color: transparent;
+    color: #e2dfe7;
+    border: 1px solid #e2dfe7;
+}
+
+.common-title {
+    font-family: 'MuseoSansCyrl700', sans-serif;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.common-title span {
+    color: #6933DC;
+}
+
+.main-title {
+    font-family: 'MuseoSansCyrl700', sans-serif;
+    line-height: 65px;
+    font-size: 54px;
+}
+
+.main-title span {
+    color: #6933DC;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 13px;
+    line-height: 16px;
+    color: #DCDCF3;
+}
+
+a {
+    color: #6933DC;
+}
+
+.question-title {
+    font-family: 'MuseoSansCyrl700', sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.question-title span {
+    color: #6933DC;
+}
+
+.test-question-options {
+    margin-top: 58px;
+    min-height: 344px;
+}
+
+.test-question-option {
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.test-question-option label {
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #6933DC;
+    border-radius: 50%;
+    margin: auto 13px auto 0;
+
+    display: grid;
+    place-content: center;
+    flex-shrink: 0;
+}
+
+.result-link {
+    align-self: flex-end;
+    margin-top: 75px;
+}
+
+.result-link a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.result-link img {
+    margin-left: 14px;
+}

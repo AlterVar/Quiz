@@ -1,0 +1,48 @@
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.breadcrumbs a {
+    color: #DCDCF3;
+    text-decoration: none;
+}
+
+.breadcrumbs p {
+    color: #6933DC;
+}
+
+.result-title {
+    font-size: 54px;
+}
+
+.result-title span, .result-person span, .question-title span {
+    color: #6933DC;
+}
+
+.result-person {
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.question-title {
+    margin-bottom: 40px;
+}
+
+.question-options {
+    margin-bottom: 60px;
+}
+
+.wrong-answer label {
+    color: #DC3333;
+}
+
+.right-answer label {
+    color: #5FDC33;
+}
+
+.result-link a {
+    justify-content: flex-end;
+}
